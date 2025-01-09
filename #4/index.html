@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Tabs | W3Schools</title>
+    </head>
+    <body>
+        <header>
+            <h2>Tabs</h2>
+        <p>Haga clic en los botones dentro del menú con pestañas:</p>
+        </header>
+
+        <div class="tab">
+            <button class="tablinks"
+                onclick="openCity(event, 'Londres')">Londres</button>
+            <button class="tablinks"
+                onclick="openCity(event, 'Paris')">París</button>
+            <button class="tablinks"
+                onclick="openCity(event, 'Tokyo')">Tokyo</button>
+            <button class="tablinks"
+                onclick="openCity(event, 'Asuncion')">Asunción</button>
+        </div>
+
+        <div class="tabcontent" id="Londres">
+            <h3>Londres</h3>
+            <p>Ciudad capital de Inglaterra</p>
+        </div>
+
+        <div class="tabcontent" id="Paris">
+            <h3>París</h3>
+            <p>Ciudad capital de Francia</p>
+        </div>
+
+        <div class="tabcontent" id="Tokyo">
+            <h3>Tokyo</h3>
+            <p>Ciudad capital Japón</p>
+        </div>
+
+        <div class="tabcontent" id="Asuncion">
+            <h3>Asunción</h3>
+            <p>Ciudad capital de Paraguay</p>
+        </div>
+
+        <script src="script2.js"></script>
+    </body>
+</html>
