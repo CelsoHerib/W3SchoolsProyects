@@ -1,0 +1,42 @@
+body {font-family: "Lato", sans-serif;}
+
+
+.tablink {
+    background-color: #555555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 1px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover{
+    background-color: #5a759c;
+}
+/* Style the tab content */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 300px;
+  text-align: center;
+  background-color: aqua;
+}
+
+#Londres {background-image: url(./assets/londres-nuit.jpeg);
+background-size: cover;
+color: azure;
+text-align: center;
+}
+#Paris {background-image: url(./assets/La_Tour_Eiffel.jpg);
+background-size: cover;
+text-align: justify;}
+#Tokyo {background-image: url(./assets/Skyscrapers_of_Shinjuku.jpg);
+background-size: cover;}
+#Oslo {background-image: url(./assets/Oslo-5.jpg);
+background-size: cover;}
+#Asuncion {background-image: url(./assets/Palacio_de_Gobierno2.jpeg);
+background-size: cover;
+color: rgb(7, 6, 6);}

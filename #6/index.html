@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Tab Headers | W3Schools</title>
+    </head>
+    <body>
+        <p>Haga clic en los botones dentro del menú con pestañas:</p>
+
+        <div id="Londres" class="tabcontent">
+            <h1>Londres</h1>
+            <p>Londres es la capital de Inglaterra.
+                Londres es una ciudad repleta de contrastes en la que se
+                entrelazan la modernidad de Piccadilly Circus, repleto de cines,
+                teatros y enormes carteles luminosos, con la solemnidad del
+                histórico Palacio de Westminster o la tranquilidad de Hyde Park.
+
+                Una vez que nos alejamos del centro, la ciudad cuenta con
+                barrios llenos de magia como el de Camden, famoso por su mercado
+                alternativo.
+            </p>
+        </div>
+
+        <div id="Paris" class="tabcontent">
+            <h1>Paris</h1>
+            <p>Paris es la capital de Francia.
+                París, la ciudad que nació a orillas del Sena, creció desde una
+                pequeña isla, Île de la Cité, hasta la vasta metrópoli que hoy
+                en día se extiende más allá de Ménilmontant, el distrito
+                vingtième.
+
+                La capital francesa tiene mucho que ofrecer. Siglos de historia
+                han dejado estructuras significativas que también han sido el
+                trasfondo de historias de amor, guerras y revoluciones. Ya sea
+                que estés buscando contemplar lugares ocultos, los famosos
+                monumentos y joyas que pronto se abrirán, o simplemente
+                enriqueciendo tu propia historia con ellos, encontrarás todo lo
+                que deseas en esta ciudad.
+            </p>
+        </div>
+
+        <div id="Tokyo" class="tabcontent">
+            <h1>Tokyo</h1>
+            <p>Tokyo es la capital de Japón.
+                Tokio, la bulliciosa capital de Japón, es una de las ciudades
+                más pobladas del mundo, con una asombrosa población de alrededor
+                de 37 millones de habitantes en el área metropolitana de Tokio.
+                Situada al sureste de la isla más grande, Honshu, en la serena
+                llanura de Kanto, Tokio es el centro de los asuntos políticos,
+                administrativos, financieros, industriales y culturales. Es una
+                ciudad vibrante que nunca duerme y que requiere más de un día o
+                incluso una semana para sumergirse por completo en su
+                cautivadora atmósfera y explorar sus vastos terrenos.
+            </p>
+        </div>
+
+        <div id="Oslo" class="tabcontent">
+            <h1>Oslo</h1>
+            <p>Oslo es la capital de Noruega.
+                Oslo es una ciudad con un complicado carácter nórdico. En la
+                capital de Noruega por todas las partes se siente la noble
+                moderación, la simplicidad refinada, la comodidad y
+                hospitalidad. Esta es una de las ciudades más antiguas de la
+                península escandinava, la ciudad más grande de Europa. Se
+                encuentra en la parte norte de la pintoresca bahía del mismo
+                nombre. El estilo único y elegante de la arquitectura de Oslo es
+                fascinante e impresionante. El ritmo tranquilo de la vida, la
+                atmósfera de bienestar y la ausencia de elegancia deliberada
+                crean un aura especial que favorece los sueños y la creación.
+                Los amantes del arte en todas sus manifestaciones encontrarán
+                aquí interesantes museos, galerías de arte y teatros. Para
+                aquellos que prefieren actividades al aire libre, recomendamos
+                pistas de esquí de lujo. A orillas del Mar del Norte se puede
+                relajarse en las magníficas playas rocosas. La naturaleza mágica
+                de los fabulosos fiordos es un lugar ideal para relajarse y
+                buscar inspiración. Aquí la gente respeta enormemente el medio
+                ambiente. De aquí proviene el aire y agua puros.
+            </p>
+        </div>
+
+        <div id="Asuncion" class="tabcontent">
+            <div class="text">
+                <h1>Asunción</h1>
+                <p>Asunción es la capital de Paraguay.
+                    La cautivante atmósfera de Asunción cuenta con el aromático
+                    aporte de ceibos, pasionarias y lapachos amarillos en flor.
+                    Ese
+                    aire denso, levemente empalagoso, se empieza a respirar
+                    puertas
+                    afueras de la ciudad, en los poblados suburbanos. Irrumpe
+                    tibiamente alrededor del aeropuerto, mientras el chillido de
+                    los
+                    aviones perfora los largos silencios de los luthiers de
+                    arpas de
+                    Areguá y los vecinos de Luque entregados al descanso en el
+                    parque Na Guazú (“Campo Grande”, en guaraní). Cualquiera de
+                    ellos es capaz de explicar que “aquí se fabrica el arpa
+                    india. A
+                    diferencia del arpa de concierto, no tiene pedal para medios
+                    tonos”.
+                </p>
+            </div>
+        </div>
+
+        <button class="tablink" onclick="openCity('Londres', this, 'red')"
+            id="defaultOpen">Londres</button>
+        <button class="tablink"
+            onclick="openCity('Paris', this, 'green')">Paris</button>
+        <button class="tablink"
+            onclick="openCity('Tokyo', this, 'blue')">Tokyo</button>
+        <button class="tablink"
+            onclick="openCity('Oslo', this, 'orange')">Oslo</button>
+        <button class="tablink"
+            onclick="openCity('Asuncion', this, 'purple')">Asunción</button>
+
+        <script src="script.js"></script>
+    </body>
+</html>
