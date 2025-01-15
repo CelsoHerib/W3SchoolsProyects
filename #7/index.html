@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Full Page Tabs | W3Schools</title>
+    </head>
+    <body>
+
+        <button class="tablink"
+            onclick="openPage('Inicio', this, 'red')">Inicio</button>
+        <button class="tablink" onclick="openPage('Noticias', this, 'green')"
+            id="defaultOpen">Noticias</button>
+        <button class="tablink"
+            onclick="openPage('Contacto', this, 'blue')">Contacto</button>
+        <button class="tablink"
+            onclick="openPage('SobreNosotros', this, 'orange')">Sobre
+            nosotros</button>
+
+        <div id="Inicio" class="tabcontent">
+            <h3>Inicio</h3>
+            <p>Todo gran inicio comienza con un pequeño paso...</p>
+        </div>
+
+        <div id="Noticias" class="tabcontent">
+            <h3>Noticias</h3>
+            <p>¡Las buena nuevas de hoy!</p>
+        </div>
+
+        <div id="Contacto" class="tabcontent">
+            <h3>Contacto</h3>
+            <p>Ponte en contacto con nosotros o pasa a tomar un café..</p>
+        </div>
+
+        <div id="SobreNosotros" class="tabcontent">
+            <h3>Sobre Nosotros</h3>
+            <p>Quienes somos y qué hacemos.</p>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
